@@ -26,6 +26,7 @@ public class Balance_Deposit {
 	private static void main(String[] args) {
 		JFrame f = new JFrame("Balance Deposit");
 		JLabel ac = new JLabel("Enter A/C No.:");
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		ac.setBounds(35,50,110,30);
 		JLabel pin = new JLabel("Enter PIN:");
 		pin.setBounds(35, 100, 110, 30);

@@ -27,6 +27,7 @@ public class Balance_Check {
 		JFrame f = new JFrame("Balance Check");
 		JLabel ac = new JLabel("Enter A/C No.:");
 		ac.setBounds(35,50,110,30);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JLabel pin = new JLabel("Enter PIN:");
 		pin.setBounds(35, 100, 110, 30);
 		JTextField ac_tf = new JTextField();

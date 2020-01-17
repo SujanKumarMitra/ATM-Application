@@ -32,6 +32,7 @@ public class Account_Create {
 		JLabel email = new JLabel("Email:");
 		JLabel deposit = new JLabel("Deposit");
 		JLabel pin = new JLabel("PIN");
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JTextField name_tf = new JTextField();
 		JTextField mob_no_tf = new JTextField();

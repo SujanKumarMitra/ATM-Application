@@ -19,6 +19,8 @@ public class Index {
 		ac_create.setBounds(160, 75, 150, 50);
 		bal_check.setBounds(160, 150, 150,50);
 		wd.setBounds(160, 225, 150, 50);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 		insert.setBounds(160, 300, 150, 50);
 		f.add(ac_create);
 		f.add(bal_check);
